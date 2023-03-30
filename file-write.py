@@ -1,0 +1,11 @@
+f=open("sample.txt","w")
+f.write("This is line one")
+f.close()
+
+f=open("sample2.txt","w")
+f.write("This is line one\n")
+f.write("This is line two\n")
+f.write("This is line three\n")
+f.write("This is line 4\n")
+f.write("This is line 5")
+f.close()
